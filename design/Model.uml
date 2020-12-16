@@ -3,35 +3,37 @@
   <ID>JAVA</ID>
   <OriginalElement>Model</OriginalElement>
   <nodes>
-    <node x="87.0" y="540.0">Model.Bus</node>
-    <node x="174.0" y="540.0">Model.Motorbike</node>
-    <node x="34.5" y="0.0">Model.Vehicle</node>
-    <node x="0.0" y="540.0">Model.Car</node>
-    <node x="0.0" y="612.0">Model.SaveFile</node>
-    <node x="329.0" y="0.0">Model.Road</node>
-    <node x="645.0" y="0.0">Model.TrafficLight</node>
+    <node x="92.0" y="566.0">Model.Bus</node>
+    <node x="184.0" y="566.0">Model.Motorbike</node>
+    <node x="36.0" y="0.0">Model.Vehicle</node>
+    <node x="0.0" y="566.0">Model.Car</node>
+    <node x="0.0" y="641.0">Model.SaveFile</node>
+    <node x="349.0" y="0.0">Model.Road</node>
+    <node x="685.0" y="0.0">Model.TrafficLight</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Model.Motorbike" target="Model.Vehicle">
-      <point x="0.0" y="-13.5" />
-      <point x="229.0" y="515.0" />
-      <point x="177.83333333333334" y="515.0" />
-      <point x="57.33333333333334" y="245.0" />
-    </edge>
     <edge source="Model.Car" target="Model.Vehicle">
-      <point x="0.0" y="-13.5" />
-      <point x="33.5" y="515.0" />
-      <point x="63.16666666666666" y="515.0" />
-      <point x="-57.33333333333334" y="245.0" />
+      <point x="0.0" y="-15.0" />
+      <point x="36.0" y="541.0" />
+      <point x="66.66666666666666" y="541.0" />
+      <point x="-61.33333333333334" y="258.0" />
+    </edge>
+    <edge source="Model.Motorbike" target="Model.Vehicle">
+      <point x="0.0" y="-15.0" />
+      <point x="244.0" y="541.0" />
+      <point x="189.33333333333334" y="541.0" />
+      <point x="61.33333333333334" y="258.0" />
     </edge>
     <edge source="Model.Bus" target="Model.Vehicle">
-      <point x="0.0" y="-13.5" />
-      <point x="0.0" y="245.0" />
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="258.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="134.75" y="250.33333333333326" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="446.0" y="352.5" />
+  <SelectedNodes>
+    <node>Model.Bus</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>

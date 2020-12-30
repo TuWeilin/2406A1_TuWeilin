@@ -5,8 +5,8 @@
   <nodes>
     <node x="92.0" y="566.0">Model.Bus</node>
     <node x="184.0" y="566.0">Model.Motorbike</node>
-    <node x="36.0" y="0.0">Model.Vehicle</node>
     <node x="0.0" y="566.0">Model.Car</node>
+    <node x="36.0" y="0.0">Model.Vehicle</node>
     <node x="0.0" y="641.0">Model.SaveFile</node>
     <node x="349.0" y="0.0">Model.Road</node>
     <node x="685.0" y="0.0">Model.TrafficLight</node>
@@ -30,7 +30,7 @@
       <point x="0.0" y="258.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="446.0" y="352.5" />
+  <settings layout="Hierarchic Group" zoom="0.7944827586206896" x="446.0" y="352.5" />
   <SelectedNodes>
     <node>Model.Bus</node>
   </SelectedNodes>
